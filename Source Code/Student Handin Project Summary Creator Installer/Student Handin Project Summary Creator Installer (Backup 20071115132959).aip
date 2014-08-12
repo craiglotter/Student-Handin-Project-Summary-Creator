@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT type="Advanced Installer" version="1.9" modules="professional" RootPath=".">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="CTRLS" Value="3"/>
+    <ROW Property="ProductCode" Value="{5C96C082-FDF9-4D3E-8583-09918AE71F9D}"/>
+    <ROW Property="ALLUSERS" Value="2"/>
+    <ROW Property="ARPPRODUCTICON" Value="controlPanelIcon.exe"/>
+    <ROW Property="BannerBitmap" Value="installer_background.jpg"/>
+    <ROW Property="DialogBitmap" Value="installer_background_dialog.jpg"/>
+    <ROW Property="Manufacturer" Value="CodeUnit"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{E0C92F72-8338-4B8A-930A-6E26CF9871DA}"/>
+    <ROW Property="ProductName" Value="Student Handin Project Summary Creator"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="Generated_DIR" Directory_Parent="TARGETDIR" DefaultDir="Genera~1|Generated"/>
+    <ROW Directory="Inputs_DIR" Directory_Parent="TARGETDIR" DefaultDir="Inputs"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" Directory_Parent="" DefaultDir="SourceDir"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Application_Loader.exe" ComponentId="{110B745B-31A5-4B40-B611-EE09CC8750DE}" Directory_="TARGETDIR" Attributes="0" Condition="" KeyPath="Application_Loader.exe" FullKeyPath="TARGETDIR\Application_Loader.exe"/>
+    <ROW Component="AutoUpdate.exe" ComponentId="{EB6DF8DD-76F7-4BCE-9CBA-160E9DE404EB}" Directory_="TARGETDIR" Attributes="0" Condition="" KeyPath="AutoUpdate.exe" FullKeyPath="TARGETDIR\AutoUpdate.exe"/>
+    <ROW Component="Student_Handin_Project_Summary_Creator.exe" ComponentId="{F5CBD1EF-094B-4B38-A019-5FE65DE5ABC3}" Directory_="TARGETDIR" Attributes="0" Condition="" KeyPath="Student_Handin_Project_Summary_Creator.exe" FullKeyPath="TARGETDIR\Student Handin Project Summary Creator.exe"/>
+    <ROW Component="config.aup" ComponentId="{C9FD5601-B61C-4969-9256-E1827AABEC17}" Directory_="TARGETDIR" Attributes="0" Condition="" KeyPath="config.aup" FullKeyPath="TARGETDIR"/>
+    <ROW Component="Inputs.txt" ComponentId="{124AEC3E-B54B-4080-A1B3-8DE854B9C57D}" Directory_="Inputs_DIR" Attributes="0" Condition="" KeyPath="Inputs.txt" FullKeyPath="TARGETDIR\Inputs"/>
+    <ROW Component="background.jpg" ComponentId="{7FD454A5-17DA-47A0-8DB1-7DEA278AFF45}" Directory_="Generated_DIR" Attributes="0" Condition="" KeyPath="background.jpg" FullKeyPath="TARGETDIR\Generated"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Feature_Parent="" Title="MainFeature" Description="Description" Display="2" Level="1" Directory_="TARGETDIR" Attributes="0" Components="Application_Loader.exe AutoUpdate.exe config.aup background.jpg Inputs.txt Student_Handin_Project_Summary_Creator.exe"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="AutoUpdate.exe" Component_="AutoUpdate.exe" FileName="AutoUp~1.exe|AutoUpdate.exe" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\AutoUpdate.exe" SelfReg="false"/>
+    <ROW File="Splash_Image.jpg" Component_="Inputs.txt" FileName="Splash~1.jpg|Splash_Image.jpg" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Inputs\Splash_Image.jpg" SelfReg="false"/>
+    <ROW File="header.jpg" Component_="background.jpg" FileName="header.jpg" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Generated\header.jpg" SelfReg="false"/>
+    <ROW File="Inputs.txt" Component_="Inputs.txt" FileName="Inputs.txt" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Inputs\Inputs.txt" SelfReg="false"/>
+    <ROW File="Stylesheet.css" Component_="background.jpg" FileName="Styles~1.css|Stylesheet.css" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Generated\Stylesheet.css" SelfReg="false"/>
+    <ROW File="background.jpg" Component_="background.jpg" FileName="backgr~1.jpg|background.jpg" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Generated\background.jpg" SelfReg="false"/>
+    <ROW File="Application_Loader.exe" Component_="Application_Loader.exe" FileName="Applic~1.exe|Application_Loader.exe" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Application_Loader.exe" SelfReg="false"/>
+    <ROW File="Description.txt" Component_="config.aup" FileName="Descri~1.txt|Description.txt" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Description.txt" SelfReg="false"/>
+    <ROW File="Student_Handin_Project_Summary_Creator.exe" Component_="Student_Handin_Project_Summary_Creator.exe" FileName="Studen~1.exe|Student Handin Project Summary Creator.exe" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Student Handin Project Summary Creator.exe" SelfReg="false"/>
+    <ROW File="Student_Handin_Project_Summary_Creator.exe.config" Component_="config.aup" FileName="Studen~1.con|Student Handin Project Summary Creator.exe.config" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\Student Handin Project Summary Creator.exe.config" SelfReg="false"/>
+    <ROW File="config.aup" Component_="config.aup" FileName="config.aup" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\config.aup" SelfReg="false"/>
+    <ROW File="header.psd" Component_="config.aup" FileName="header.psd" Version="" Language="" Attributes="" SourcePath="..\Student Handin Project Summary Creator\Required Files\header.psd" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Source="" Target="A higher version of [ProductName] is installed."/>
+    <ROW Action="AI_ViewReadme" Type="194" Source="viewer.exe" Target="[#Description.txt]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="AI_LaunchApp" Type="194" Source="viewer.exe" Target="[#Application_Loader.exe]"/>
+    <ROW Action="SET_TARGETDIR" Type="307" Source="TARGETDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="UpgradeCode" VersionMin="" VersionMax="ProductVersion" Language="" Attributes="1025" Remove=""/>
+    <ROW UpgradeCode="UpgradeCode" VersionMin="ProductVersion" VersionMax="" Language="" Attributes="2" Remove=""/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiMergeModsComponent">
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Student_Handin_Project_Summary_Creator" Directory_="SHORTCUTDIR" Name="Studen~1|Student Handin Project Summary Creator" Component_="Application_Loader.exe" Target="[TARGETDIR]Application_Loader.exe" Arguments="" Description="" Hotkey="0" Icon_="controlPanelIcon.exe" IconIndex="0" ShowCmd="1" WkDir=""/>
+    <ROW Shortcut="Uninstall_Student_Handin_Project_Summary_Creator" Directory_="SHORTCUTDIR" Name="Uninst~1|Uninstall Student Handin Project Summary Creator" Component_="Application_Loader.exe" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" Description="" Hotkey="0" Icon_="SystemFolder_msiexec.exe" IconIndex="0" ShowCmd="1" WkDir=""/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="SystemFolder_msiexec.exe" SourcePath="&lt;uninstall.ico&gt;" Index="0"/>
+    <ROW Name="controlPanelIcon.exe" SourcePath="Images\Application_Icon.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="installer_background.jpg" SourcePath="Images\installer_background.jpg"/>
+    <ROW Name="installer_background_dialog.jpg" SourcePath="Images\installer_background_dialog.jpg"/>
+    <ROW Name="viewer.exe" SourcePath="&lt;viewer.exe&gt;"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ATTRIBUTE name="Start" value="WelcomeDlg FolderDlg VerifyReadyDlg"/>
+    <ATTRIBUTE name="Progress" value="ProgressDlg"/>
+    <ATTRIBUTE name="End" value="ExitDialog"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiMediaComponent">
+    <ATTRIBUTE name="InstallationType" value="1"/>
+    <ATTRIBUTE name="MediaSize" value="0"/>
+    <ATTRIBUTE name="Compress" value="1"/>
+    <ATTRIBUTE name="Package" value="10"/>
+    <ATTRIBUTE name="PackageName" value="Release\Student Handin Project Summary Creator Installer"/>
+    <ATTRIBUTE name="IconPath" value="Images\Application_Icon.ico?0"/>
+  </COMPONENT>
+</DOCUMENT>

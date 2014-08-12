@@ -1,0 +1,125 @@
+TABLE {
+border-collapse: collapse;
+border-color: #000000;
+border-size: 1;
+color: #000000;
+font-family: Verdana;
+font-size: 8pt;
+}
+
+TD {
+border-color: #000000;
+align: left;
+valign: top
+}
+
+
+a:link {color: #003366;
+font-family: verdana;
+font-size: 8pt;
+FONT-WEIGHT: bold;
+text-decoration: none}
+
+a:visited {color: #003366;
+font-family: verdana;
+font-size: 8pt;
+FONT-WEIGHT: bold;
+text-decoration: none}
+
+a:hover{color: ff6600;
+font-family: verdana;
+font-size: 8pt;
+text-decoration: none;
+position: relative;
+left: 1px; 
+top: 1px}
+
+
+	
+
+a.home_menu:link {color: #808080;
+font-family: verdana;
+FONT-WEIGHT: bold;
+FONT-SIZE: 18px;
+text-decoration: none
+}
+
+a.home_menu:visited {color: #808080;
+font-family: verdana;
+FONT-WEIGHT: bold;
+FONT-SIZE: 18px;
+text-decoration: none
+}
+
+a.home_menu:hover{color: #000000;
+font-family: verdana;
+FONT-WEIGHT: bold;
+FONT-SIZE: 18px;
+text-decoration: none;
+position: relative;
+left: 1px; 
+top: 1px}	
+
+a.block_menu:link {color: #ffffff;
+font-family: verdana;
+FONT-WEIGHT: bold;
+FONT-SIZE: 14px;
+text-decoration: none
+}
+
+a.block_menu:visited {color: #ffffff;
+font-family: verdana;
+FONT-WEIGHT: bold;
+FONT-SIZE: 14px;
+text-decoration: none
+}
+
+a.block_menu:hover{color: #000000;
+font-family: verdana;
+FONT-WEIGHT: bold;
+FONT-SIZE: 14px;
+text-decoration: none;}	
+
+/*menu styles */
+.lowText { text-decoration: none; color: #000000; font: 11px verdana}
+.highText { text-decoration: none; color: #FFFFFF; font: 11px verdana}
+.itemBorder { border: 1px solid #666666 }
+.itemBorderBlank { border: 1px solid #CCCCDD }
+
+/* Delete these "button" styles if you're not using them */
+
+.buttonText { text-decoration: none; color: #FFCC99; font: Bold 12px Arial, Helvetica }
+.buttonHover { text-decoration: none; color: #99CCFF; font: Bold 12px Arial, Helvetica; padding: 1px }
+.buttonBorder { border: 1px outset #339966 }
+.buttonBorderOver { border: 1px inset #CC9966 }
+
+.SideBarTitle {	border:1px none #666666; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; PADDING-TOP: 5px; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif }
+.SidebarContent { border:1px solid #666666; background-position: center; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif} 
+.Main {	BORDER-RIGHT: 1px solid #666666; BACKGROUND-POSITION:  center; BORDER-TOP: thick solid #000066; FONT-SIZE: 11px;  BORDER-LEFT: 1px solid #666666; BORDER-BOTTOM: 1px solid #666666; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+H1.mainmenu {	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+H1.error {	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ff6600; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+H1 {	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #003366; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+H2 {	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #006699; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+H3 {	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+H4 {	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #808080; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+
+/* H1 {	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #808080; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}*/
+/* H2 {	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #808080; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}*/
+/* H3 {	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #808080; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}*/
+/* H4 {	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}*/
+
+.text {	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.ProdMenu {	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #ff9900 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #ff9900 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #666666}
+.fields {	BORDER-RIGHT: #000066 1px inset; BORDER-TOP: #000066 1px inset; FONT-SIZE: 10px; BORDER-LEFT: #000066 1px inset; BORDER-BOTTOM: #000066 1px inset; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff}
+.TitleLeft {	BACKGROUND: #ff9900  no-repeat fixed left top; }
+.NewsBan {	BORDER-RIGHT: black 0px dashed; BORDER-TOP: #ff9900 0px dashed; FONT-SIZE: 11px; BORDER-LEFT: black 0px dashed; BORDER-BOTTOM: #ff9900 2px dashed; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #cccccc}
+
+A.tabb:link	{color:#0072e5;}
+A.tabb:visited{color: #0072e5;}
+A.tabb:hover	{color: red;}
+.tab { font-size:6px; font-family:Tahoma, Verdana, Arial;color:#0072e5;}
+.tabb { font-weight:bold; font-size:6px; font-family:Tahoma, Verdana, Arial;}
+body {
+margin: 8px;
+background:#FFFFFF url(background.jpg) no-repeat; 
+}
